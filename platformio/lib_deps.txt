@@ -1,0 +1,17 @@
+The lib_deps options is needed if you want to manage libraries exclusive for your own project.
+https://community.platformio.org/t/how-do-i-add-a-library-using-lib-deps/11093
+
+[env:ttgo-lora32-v1]
+platform = espressif32
+board = ttgo-lora32-v1
+framework = arduino
+monitor_speed = 115200
+lib_deps = 
+	adafruit/Adafruit BusIO@^1.9.3
+	adafruit/Adafruit GFX Library@^1.10.12
+	adafruit/Adafruit SSD1306@^2.5.0
+	adafruit/Adafruit Unified Sensor@^1.1.4
+	matthijskooijman/IBM LMIC framework@^1.5.1
+	sabas1080/CayenneLPP@^1.1.0
+	sandeepmistry/LoRa@^0.8.0
+	thingpulse/ESP8266 and ESP32 OLED driver for SSD1306 displays@^4.2.1

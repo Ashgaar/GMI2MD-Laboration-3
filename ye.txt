@@ -1,0 +1,8 @@
+docker run --mac-address 2E:48:9A:F8:40:7A -it --name mbedsim -p 7829:7829 armedu/mbed_sim
+
+om den är uppe kör
+docker attach mbedsim
+
+2E-48-9A-F8-40-7A
+
+

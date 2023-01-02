@@ -1,0 +1,12 @@
+C:\Users\zangi\Programmering\IT-säkerhet högskolan dalarna\GMI2MD IoT\Laboration 3\lab3-LoRaWAN Payload Decoding\c# code\CayenneParser\bin\Debug\net5.0\CayenneParser.deps.json
+C:\Users\zangi\Programmering\IT-säkerhet högskolan dalarna\GMI2MD IoT\Laboration 3\lab3-LoRaWAN Payload Decoding\c# code\CayenneParser\bin\Debug\net5.0\CayenneParser.dll
+C:\Users\zangi\Programmering\IT-säkerhet högskolan dalarna\GMI2MD IoT\Laboration 3\lab3-LoRaWAN Payload Decoding\c# code\CayenneParser\bin\Debug\net5.0\CayenneParser.pdb
+C:\Users\zangi\Programmering\IT-säkerhet högskolan dalarna\GMI2MD IoT\Laboration 3\lab3-LoRaWAN Payload Decoding\c# code\CayenneParser\obj\Debug\net5.0\CayenneParser.csproj.AssemblyReference.cache
+C:\Users\zangi\Programmering\IT-säkerhet högskolan dalarna\GMI2MD IoT\Laboration 3\lab3-LoRaWAN Payload Decoding\c# code\CayenneParser\obj\Debug\net5.0\CayenneParser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zangi\Programmering\IT-säkerhet högskolan dalarna\GMI2MD IoT\Laboration 3\lab3-LoRaWAN Payload Decoding\c# code\CayenneParser\obj\Debug\net5.0\CayenneParser.AssemblyInfoInputs.cache
+C:\Users\zangi\Programmering\IT-säkerhet högskolan dalarna\GMI2MD IoT\Laboration 3\lab3-LoRaWAN Payload Decoding\c# code\CayenneParser\obj\Debug\net5.0\CayenneParser.AssemblyInfo.cs
+C:\Users\zangi\Programmering\IT-säkerhet högskolan dalarna\GMI2MD IoT\Laboration 3\lab3-LoRaWAN Payload Decoding\c# code\CayenneParser\obj\Debug\net5.0\CayenneParser.csproj.CoreCompileInputs.cache
+C:\Users\zangi\Programmering\IT-säkerhet högskolan dalarna\GMI2MD IoT\Laboration 3\lab3-LoRaWAN Payload Decoding\c# code\CayenneParser\obj\Debug\net5.0\CayenneParser.dll
+C:\Users\zangi\Programmering\IT-säkerhet högskolan dalarna\GMI2MD IoT\Laboration 3\lab3-LoRaWAN Payload Decoding\c# code\CayenneParser\obj\Debug\net5.0\refint\CayenneParser.dll
+C:\Users\zangi\Programmering\IT-säkerhet högskolan dalarna\GMI2MD IoT\Laboration 3\lab3-LoRaWAN Payload Decoding\c# code\CayenneParser\obj\Debug\net5.0\CayenneParser.pdb
+C:\Users\zangi\Programmering\IT-säkerhet högskolan dalarna\GMI2MD IoT\Laboration 3\lab3-LoRaWAN Payload Decoding\c# code\CayenneParser\obj\Debug\net5.0\ref\CayenneParser.dll

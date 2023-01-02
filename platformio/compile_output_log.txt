@@ -1,0 +1,124 @@
+> Executing task in folder TTGO-Lab: C:\Users\hjo\.platformio\penv\Scripts\platformio.exe run --environment ttgo-lora32-v1 <
+
+Processing ttgo-lora32-v1 (platform: espressif32; board: ttgo-lora32-v1; framework: arduino)
+--------------------------------------------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/ttgo-lora32-v1.html
+|   |-- <Wire> 1.0.1
+|-- <Adafruit Unified Sensor> 1.1.4
+|-- <ArduinoJson> 6.18.5|-- <IBM LMIC framework> 1.5.1
+|   |-- <SPI> 1.0
+|-- <CayenneLPP> 1.1.0
+|   |-- <ArduinoJson> 6.18.5
+|-- <LoRa> 0.8.0
+|   |-- <SPI> 1.0
+|-- <ESP8266 and ESP32 OLED driver for SSD1306 displays> 4.2.1
+|   |-- <Wire> 1.0.1
+|   |-- <SPI> 1.0
+|-- <SPI> 1.0
+Building in release mode
+Compiling .pio\build\ttgo-lora32-v1\src\main.cpp.o
+Generating partitions .pio\build\ttgo-lora32-v1\partitions.bin
+Compiling .pio\build\ttgo-lora32-v1\libde2\Wire\Wire.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib74f\SPI\SPI.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib931\Adafruit BusIO\Adafruit_BusIO_Register.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib931\Adafruit BusIO\Adafruit_I2CDevice.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib931\Adafruit BusIO\Adafruit_SPIDevice.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\libdc3\Adafruit GFX Library\Adafruit_GFX.cpp.o
+Archiving .pio\build\ttgo-lora32-v1\lib74f\libSPI.a
+Compiling .pio\build\ttgo-lora32-v1\libdc3\Adafruit GFX Library\Adafruit_GrayOLED.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\libdc3\Adafruit GFX Library\Adafruit_SPITFT.cpp.o
+Archiving .pio\build\ttgo-lora32-v1\libde2\libWire.a
+Compiling .pio\build\ttgo-lora32-v1\libdc3\Adafruit GFX Library\glcdfont.c.o
+Compiling .pio\build\ttgo-lora32-v1\lib193\Adafruit SSD1306\Adafruit_SSD1306.cpp.o
+Archiving .pio\build\ttgo-lora32-v1\lib931\libAdafruit BusIO.a
+Compiling .pio\build\ttgo-lora32-v1\libaa0\Adafruit Unified Sensor\Adafruit_Sensor.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib1e9\IBM LMIC framework\aes\ideetron\AES-128_V10.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib1e9\IBM LMIC framework\aes\lmic.c.o
+Compiling .pio\build\ttgo-lora32-v1\lib1e9\IBM LMIC framework\aes\other.c.o
+Compiling .pio\build\ttgo-lora32-v1\lib1e9\IBM LMIC framework\hal\hal.cpp.o
+.pio\libdeps\ttgo-lora32-v1\IBM LMIC framework\src\aes\ideetron\AES-128_V10.cpp:81:13: warning: 'void Send_State()' declared 'static' but never defined [-Wunused-function]
+ static void Send_State();
+             ^
+Compiling .pio\build\ttgo-lora32-v1\lib1e9\IBM LMIC framework\lmic\lmic.c.o
+Compiling .pio\build\ttgo-lora32-v1\lib1e9\IBM LMIC framework\lmic\oslmic.c.o
+Compiling .pio\build\ttgo-lora32-v1\lib1e9\IBM LMIC framework\lmic\radio.c.o
+.pio\libdeps\ttgo-lora32-v1\IBM LMIC framework\src\lmic\lmic.c: In function 'decodeFrame':
+.pio\libdeps\ttgo-lora32-v1\IBM LMIC framework\src\lmic\lmic.c:1040:17: warning: unused variable 'window' [-Wunused-variable]
+     const char *window = (LMIC.txrxFlags & TXRX_DNW1) ? "RX1" : ((LMIC.txrxFlags & TXRX_DNW2) ? "RX2" : "Other");
+                 ^
+.pio\libdeps\ttgo-lora32-v1\IBM LMIC framework\src\lmic\lmic.c: In function 'processJoinAccept':
+.pio\libdeps\ttgo-lora32-v1\IBM LMIC framework\src\lmic\lmic.c:1467:10: warning: unused variable 'mic' [-Wunused-variable]
+     u4_t mic  = os_rlsbf4(&LMIC.frame[dlen-4]); // safe before modified by encrypt!
+          ^
+.pio\libdeps\ttgo-lora32-v1\IBM LMIC framework\src\lmic\oslmic.c: In function 'os_clearCallback':
+.pio\libdeps\ttgo-lora32-v1\IBM LMIC framework\src\lmic\oslmic.c:54:10: warning: unused variable 'res' [-Wunused-variable]
+     u1_t res = unlinkjob(&OS.scheduledjobs, job) || unlinkjob(&OS.runnablejobs, job);
+          ^
+Compiling .pio\build\ttgo-lora32-v1\libd79\CayenneLPP\CayenneLPP.cpp.o
+Archiving .pio\build\ttgo-lora32-v1\libdc3\libAdafruit GFX Library.a
+Compiling .pio\build\ttgo-lora32-v1\lib7f8\LoRa\LoRa.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\libc71\ESP8266 and ESP32 OLED driver for SSD1306 displays\OLEDDisplay.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\libc71\ESP8266 and ESP32 OLED driver for SSD1306 displays\OLEDDisplayUi.cpp.o
+Archiving .pio\build\ttgo-lora32-v1\libaa0\libAdafruit Unified Sensor.a
+Archiving .pio\build\ttgo-lora32-v1\libFrameworkArduinoVariant.a
+Archiving .pio\build\ttgo-lora32-v1\lib193\libAdafruit SSD1306.a
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\Esp.cpp.o
+Archiving .pio\build\ttgo-lora32-v1\lib1e9\libIBM LMIC framework.a
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\FunctionalInterrupt.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\HardwareSerial.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\IPAddress.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\IPv6Address.cpp.o
+Archiving .pio\build\ttgo-lora32-v1\lib7f8\libLoRa.a
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\MD5Builder.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\Print.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\Stream.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\StreamString.cpp.o
+Archiving .pio\build\ttgo-lora32-v1\libd79\libCayenneLPP.a
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\WMath.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\WString.cpp.o
+Archiving .pio\build\ttgo-lora32-v1\libc71\libESP8266 and ESP32 OLED driver for SSD1306 displays.a
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\base64.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\cbuf.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\esp32-hal-adc.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\esp32-hal-bt.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\esp32-hal-cpu.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\esp32-hal-dac.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\esp32-hal-gpio.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\esp32-hal-i2c.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\esp32-hal-ledc.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\esp32-hal-log.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\esp32-hal-matrix.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\esp32-hal-misc.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\esp32-hal-psram.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\esp32-hal-rmt.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\esp32-hal-sigmadelta.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\esp32-hal-spi.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\esp32-hal-time.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\esp32-hal-timer.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\esp32-hal-touch.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\esp32-hal-uart.c.o
+C:\Users\hjo\.platformio\packages\framework-arduinoespressif32\cores\esp32\esp32-hal-spi.c: In function 'spiTransferBytesNL':
+C:\Users\hjo\.platformio\packages\framework-arduinoespressif32\cores\esp32\esp32-hal-spi.c:922:39: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+                 uint8_t * last_out8 = &result[c_longs-1];
+                                       ^
+C:\Users\hjo\.platformio\packages\framework-arduinoespressif32\cores\esp32\esp32-hal-spi.c:923:40: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+                 uint8_t * last_data8 = &last_data;
+                                        ^
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\libb64\cdecode.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\libb64\cencode.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\main.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\stdlib_noniso.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\wiring_pulse.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\wiring_shift.c.o
+Archiving .pio\build\ttgo-lora32-v1\libFrameworkArduino.a
+Linking .pio\build\ttgo-lora32-v1\firmware.elf
+Retrieving maximum program size .pio\build\ttgo-lora32-v1\firmware.elf
+Checking size .pio\build\ttgo-lora32-v1\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [          ]   4.6% (used 14952 bytes from 327680 bytes)
+Flash: [==        ]  19.0% (used 249522 bytes from 1310720 bytes)
+Building .pio\build\ttgo-lora32-v1\firmware.bin
+esptool.py v3.1
+Merged 1 ELF section
+=========================================== [SUCCESS] Took 20.94 seconds ===========================================
